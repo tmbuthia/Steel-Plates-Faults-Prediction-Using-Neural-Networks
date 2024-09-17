@@ -1,0 +1,2 @@
+# Steel-Plates-Faults-Prediction-Using-Neural-Networks
+This project focuses on predicting types of faults in steel plates using a neural network model. The dataset used contains various numeric attributes describing the characteristics of steel plates, and the goal is to classify these faults into one of seven categories. The exercise primarily utilizes numeric features, excluding the categorical ones.
