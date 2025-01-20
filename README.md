@@ -1,27 +1,28 @@
 # Steel-Plates-Faults-Prediction-Using-Neural-Networks
 This project focuses on predicting types of faults in steel plates using a neural network model. The dataset used contains various numeric attributes describing the characteristics of steel plates, and the goal is to classify these faults into one of seven categories. The exercise primarily utilizes numeric features, excluding the categorical ones.
-Dataset Overview
+
+# Dataset Overview
 The dataset contains the following variables:
 Dependent Variables (Fault Types):
-Pastry
-Z_Scratch
-K_Scratch
-Stains
-Dirtiness
-Bumps
-Other_Faults
-Independent Variables (Numeric Attributes):
-X_Minimum
-X_Maximum
-Y_Minimum
-Y_Maximum
-Pixels_Areas
-X_Perimeter
-Y_Perimeter
-Sum_of_Luminosity
-Minimum_of_Luminosity
-Maximum_of_Luminosity
-Length_of_Conveyer
+  Pastry
+  Z_Scratch
+  K_Scratch
+  Stains
+  Dirtiness
+  Bumps
+  Other_Faults
+  Independent Variables (Numeric Attributes):
+  X_Minimum
+  X_Maximum
+  Y_Minimum
+  Y_Maximum
+  Pixels_Areas
+  X_Perimeter
+  Y_Perimeter
+  Sum_of_Luminosity
+  Minimum_of_Luminosity
+  Maximum_of_Luminosity
+  Length_of_Conveyer
 Steel_Plate_Thickness 13-27. Various edge and luminosity indices
 Note:
 Among the independent variables, only the steel types (TypeOfSteel_A300 and TypeOfSteel_A400) are categorical, while all other attributes are numeric. In this project, the focus is on the numeric attributes, so the categorical variables were excluded.
